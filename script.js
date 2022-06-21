@@ -61,4 +61,13 @@ const markHigherBMI  = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
 */
-  
+
+const firstName = "Najmul";
+const job = "programmer";
+const birthYear = 2001;
+const curentYear = 2022;
+
+const najmulNew = `Hi there, I'm ${firstName} and my age${birthYear-curentYear} and now my profetion is ${job} `;// we can use bactick here to make a template literals or  template string
+
+console.log(najmulNew);
+// we can also use bactick in console.log
