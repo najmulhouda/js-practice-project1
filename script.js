@@ -60,7 +60,7 @@ const BMIJohn = massJohn / heighJohn ** 2;
 const markHigherBMI  = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
-*/
+
 
 const firstName = "Najmul";
 const job = "programmer";
@@ -71,3 +71,55 @@ const najmulNew = `Hi there, I'm ${firstName} and my age${birthYear-curentYear} 
 
 console.log(najmulNew);
 // we can also use bactick in console.log
+
+
+const age = 15;
+// const isOldEnough = age >= 18;
+
+// if(isOldEnough){
+//     console.log('I can drive a car');;
+// }
+// else{
+//     console.log("i can't drive a car");
+// }
+if(age >= 18){
+    console.log('I can drive a car');;
+}
+else{
+    const yearsLeft = 18 - age;
+    console.log(`You are too young.Wait another ${yearsLeft} years:`);
+}
+
+const birthYear = 2013;
+
+let century;
+
+if(birthYear <= 2000){
+    century = 20;
+}else{
+    century = 21;
+}
+
+console.log(century);
+
+// coding challange 2
+const massMark = 90;
+const heighMark = 1.88;
+const massJohn = 85;
+const heighJohn = 1.76;
+
+const BMIMark = massMark / heighMark ** 2;
+const BMIJohn = massJohn / heighJohn ** 2;
+const markHigherBMI  = BMIMark > BMIJohn;
+
+
+if(BMIMark > BMIJohn){
+    console.log(`Mark's BMI (${BMIMark}) is higher than john's (${BMIJohn})`);
+}else{
+    console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})`);
+}
+*/
+
+
+
+
